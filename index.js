@@ -1,6 +1,6 @@
 function bmi() {
     //Get feet and inches Value
-    let feet = document.querySelector(".feet").value;
+    var feet = document.querySelector(".feet").value;
     let inch = document.querySelector(".inch").value;
     // Merge feet and inches Value in one
     let metre = feet + "." + inch;
