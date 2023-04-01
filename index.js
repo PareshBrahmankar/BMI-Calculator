@@ -1,15 +1,15 @@
 function bmi() {
     //Get feet and inches Value
-    var feet = document.querySelector(".feet").value;
-    let inch = document.querySelector(".inch").value;
+    const feet = document.querySelector(".feet").value;
+    const inch = document.querySelector(".inch").value;
     // Merge feet and inches Value in one
-    let metre = feet + "." + inch;
+    const metre = feet + "." + inch;
     //feet to metre conversion and get The height in metre
-    let height = metre / 3.2808;
+    const height = metre / 3.2808;
     // Get Weight Value
-    let weight = document.querySelector(".weight").value;
+    const weight = document.querySelector(".weight").value;
     //BMI Calculation
-    let bmi = weight / Math.pow(height, 2);
+    const bmi = weight / Math.pow(height, 2);
 
     if(feet == 0 || inch == 0 || weight == 0){
       alert("Please Enter all Credentials...");                       
